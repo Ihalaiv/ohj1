@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Net.Mime;
 using Jypeli;
 using Jypeli.Assets;
@@ -13,6 +14,7 @@ namespace pororun;
 /// <summary>
 /// 
 /// </summary>
+[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
 public class pororun : PhysicsGame
 {
     private const double NOPEUS = 10000;
@@ -147,5 +149,10 @@ public class pororun : PhysicsGame
     private void UusiEste(Vector paikka, double leveys, double korkeus) 
     {
         
+    }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
     }
 }
