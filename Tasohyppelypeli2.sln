@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasohyppelypeli2", "Tasohyppelypeli2\Tasohyppelypeli2.csproj", "{AE8224D3-E0F8-49C5-8448-8E5BC19774E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE8224D3-E0F8-49C5-8448-8E5BC19774E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8224D3-E0F8-49C5-8448-8E5BC19774E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8224D3-E0F8-49C5-8448-8E5BC19774E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8224D3-E0F8-49C5-8448-8E5BC19774E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
